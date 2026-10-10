@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
     inputs:
       windows_version:
-        description: 'Windows version (e.g., 24H2, 25H2)'
+        description: 'Windows version (e.g., 24H2, 25H2, 26H2)'
         required: false
-        default: '25H2'
+        default: '26H2'
       windows_iso_url:
         description: 'Windows 11 ISO download URL'
         required: true
