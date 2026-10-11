@@ -24,15 +24,15 @@
 
 ## 📊 Project Stats
 
-- **📦 Total Downloads**: 205391 (and growing!)
-- **🌍 Active Users**: 205391 worldwide
+- **📦 Total Downloads**: 261436 (and growing!)
+- **🌍 Active Users**: 261436 worldwide
 - **✅ Build Success Rate**: 100%
 - **⏱️ Average Build Time**: ~30-50 minutes
-- **💾 ISO Size Reduction**: Up to 50% smaller (Windows 11 25H2)
+- **💾 ISO Size Reduction**: Up to 50% smaller (Windows 11 26H2)
 
 ## 🆕 What's New (January 2026)
 
-**Windows 11 25H2 Optimizations:**
+**Windows 11 26H2 Optimizations:**
 - ✨ **AI/Recall Removal**: Complete removal of Copilot, Recall, and AI Fabric (~220 MB saved)
 - 🛡️ **Enhanced Telemetry Blocking**: Stronger privacy protection with additional registry tweaks
 - 🎮 **VRAM Gaming Optimization**: Improved graphics performance through DirectX registry optimizations
@@ -289,7 +289,7 @@ tiny11-automated/
 # Professional Edition Core with .NET 3.5
 .\scripts\tiny11coremaker-headless.ps1 -ISO E -INDEX 6 -ENABLE_DOTNET35
 
-# Core build targeting real hardware (preserves WinRE to avoid 0x8007000B on 24H2/25H2)
+# Core build targeting real hardware (preserves WinRE to avoid 0x8007000B on 24H2, 25H2 and 26H2)
 .\scripts\tiny11coremaker-headless.ps1 -ISO E -INDEX 6 -PreserveWinRE
 
 # Nano build with WinRE preserved (real hardware use)
